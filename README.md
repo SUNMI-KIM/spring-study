@@ -1,7 +1,5 @@
 ## JWT (Json Web Token)
 
----
-
 - JWT 개념 정리와 개발 과정
 
 [Json Web Token (JWT)](https://www.notion.so/Json-Web-Token-JWT-2de38701819e4a509a357ba7e25a537a?pvs=21) 
@@ -10,9 +8,8 @@
 
 [소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/jwt)
 
-## Spring MVC
 
----
+## Spring MVC
 
 - Spring MVC 개념 정리와 개발 과정
 
@@ -22,9 +19,8 @@
 
 [소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/springmvc)
 
-## Swagger
 
----
+## Swagger
 
 - Swagger 개념 정리와 개발 과정
 
@@ -34,9 +30,8 @@
 
 [소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/springmvc)
 
-## Exception
 
----
+## Exception
 
 - Exception 개념 정리와 개발 과정
 
