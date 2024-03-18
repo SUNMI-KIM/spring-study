@@ -6,7 +6,7 @@
 
 - JWT 소스코드
 
-[소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/jwt)
+[JWT 소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/jwt)
 
 
 ## Spring MVC
@@ -17,7 +17,7 @@
 
 - Spring MVC 소스코드
 
-[소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/springmvc)
+[Spring MVC 소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/springmvc)
 
 
 ## Swagger
@@ -28,7 +28,7 @@
 
 - Spring MVC 소스코드
 
-[소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/springmvc)
+[Swagger 소스코드](https://github.com/SUNMI-KIM/spring-study/tree/main/springmvc)
 
 
 ## Exception
