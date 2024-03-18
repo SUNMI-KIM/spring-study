@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>게시판 목록</title>
+</head>
+<body>
+<h1>게시판 목록</h1>
+<a href="글등록.html" th:href="@{/add}">글 등록</a>
+<table border="1">
+  <thead>
+  <tr>
+    <th>게시판 아이디</th>
+    <th>게시판 제목</th>
+  </tr>
+  </thead>
+  <tbody>
+  <!-- 게시글 목록이 동적으로 들어갈 자리 -->
+  <tr th:each="board : ${boards}">
+    <td><a href="board.html" th:href="@{|/board/${board.id}|}" th:text="${board.id}">게시판 아이디</a></td>
+    <td th:text="${board.title}">게시판 제목</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

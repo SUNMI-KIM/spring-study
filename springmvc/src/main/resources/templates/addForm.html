@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>글 등록</title>
+</head>
+<body>
+<h1>글 등록</h1>
+<form action="게시글저장처리URL" th:action="@{/add}" method="post">
+  <label for="title">제목:</label>
+  <input type="text" id="title" name="title"><br>
+  <label for="context">게시글:</label>
+  <textarea id="context" name="context"></textarea><br>
+  <input type="submit" value="저장">
+  <a href="게시판목록.html" th:href="@{/board}">게시판 목록으로</a>
+</form>
+</body>
+</html>

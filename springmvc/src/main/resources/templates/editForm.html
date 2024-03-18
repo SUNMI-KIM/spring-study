@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>글 수정</title>
+</head>
+<body>
+<h1>글 수정</h1>
+<form action="게시글수정처리URL" th:action="@{/edit}" method="post">
+  <input type="hidden" id="postId" name="postId" value="게시글ID">
+  <label for="title">게시판 제목:</label>
+  <input type="text" id="title" name="title" value="기존 게시글 제목" th:value="${board.title}"><br>
+  <label for="context">게시글:</label>
+  <textarea id="context" name="context" th:text="${board.context}">기존 게시글 내용</textarea><br>
+  <input type="submit" value="수정">
+  <a href="게시판목록.html" th:href="@{/board}">게시판 목록으로</a>
+</form>
+</body>
+</html>
